@@ -1,4 +1,5 @@
 @import url('/utils/css/reset.css');
+@import url('/fonts/Gilroy/font-gilroy.css');
 @import url('/utils/css/global.css');
 
 .wrapper {
@@ -26,6 +27,12 @@
 }
 
 .main-swiper__pagination {}
+
+.main-swiper__text {
+	max-width: 66%;
+	text-align: center;
+	font-weight: 400;
+}
 
 .main-swiper__slide:nth-child(1) {
 	background-color: tomato;
